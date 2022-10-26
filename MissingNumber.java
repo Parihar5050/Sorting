@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.Scanner;
 
 /*array = {3,0,1} output = 2*/
 public class MissingNumber 
