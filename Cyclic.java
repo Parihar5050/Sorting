@@ -16,7 +16,7 @@ static void sort(int[] array)
    {
     int correct = array[i]-1;
 
-    if (array[i] != array[correct])
+    if (array[i] < array.length && array[i] != array[correct])
     {
       swapp(array, i, correct);    
     }
