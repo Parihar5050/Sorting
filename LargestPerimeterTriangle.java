@@ -12,6 +12,7 @@ public static void main(String[] args)
 static int checkTriangle(int[] nums) 
 {
     Arrays.sort(nums);
+    /* for max sum max number would exist at last*/
     for (int i = nums.length-3; i >= 0; --i)
     {
         if (nums[i]+nums[i+1] > nums[i+2]) 
