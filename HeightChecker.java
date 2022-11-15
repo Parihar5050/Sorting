@@ -11,16 +11,17 @@ public static void main(String[] args)
 }
 static int heightChecker(int[] heights) 
 {
-    int[]  ordered = Arrays.copyOf(heights, heights.length);
-    Arrays.sort(ordered);
-    
-    int outOfOrder = 0;
-    for (int i = 0; i < ordered.length; i++) {
-        if (ordered[i] != heights[i])
-            outOfOrder++;
-    }
-    
-    return outOfOrder;
+  int[]  ordered = Arrays.copyOf(heights, heights.length);
+  Arrays.sort(ordered);
+  
+  int outOfOrder = 0;
+  for (int i = 0; i < ordered.length; i++) 
+  {
+    if (ordered[i] != heights[i])
+       outOfOrder++;
+  }
+  
+  return outOfOrder;
 }
     
 }
